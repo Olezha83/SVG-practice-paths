@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>training site</title>
+  </head>
+  <body>
+    <h1>SVG - paths</h1>
+    <div class="container">
+      <div>
+        <svg>
+          <path class="eye_man" d="M 20 20 h 80 v 50 h -40 z" />
+          <path class="eye_man" d="M 280 20 h -80 v 50 h 40 z" />
+          <path
+            class="nose"
+            d="M 140 65 q 0 40, -20 60 v 10 q 30 10, 60 0 v -10 q -20 -20, -20 -60 "
+          />
+          <path d="M 30 150 c 10 50, 230 50, 240 0" />
+        </svg>
+      </div>
+
+      <div>
+        <svg>
+          <defs>
+            <radialGradient id="FlowerGradient" r="0.15" spreadMethod="reflect">
+              <stop offset="0%" stop-color="blue" />
+              <stop offset="100%" stop-color="pink" />
+            </radialGradient>
+          </defs>
+          <path
+            class="flower"
+            d="M 170 77 q 55 -80, 18 10
+          a 15 50 55 1 1 12 20
+          q 30 20, -5 15 
+          a 1 2.5 145 0 1 -50 23 
+          a 25 50 230 1 1 -30 -30
+          q -145 -150, 20 -30
+          A 15 60 -5 1 1 170 77 z"
+          ></path>
+        </svg>
+      </div>
+
+      <div>
+        <svg>
+          <path
+            d="M 25 30 q 5 -5, 10 0 t 10 0 t 10 0 t 10 0 t 10 0 t 10 0 t 10 0 t 10 0 t 10 0"
+          />
+          <path
+            class="eye_woman"
+            d="M 35 60 q 35 -20, 70 0 q -35 20, -70 0 z"
+          ></path>
+          <path
+            class="eye_woman"
+            d="M 265 60 q -35 -20, -70 0 q 35 20, 70 0 z"
+          ></path>
+          <path
+            class="nose"
+            d="M 140 65 q 0 40, -20 60 v 10 q 15 -5, 30 0 t 30 0"
+          ></path>
+          <path
+            d="M 275 30 q -5 -5, -10 0 t -10 0 t -10 0 t -10 0 t -10 0 t -10 0 t -10 0 t -10 0 t -10 0"
+          />
+          <path
+            d="M 30 150 c 0 40, 35 35, 67.5 35 c 5 -10, 10 -10, 15 0 s 10 10, 15 0 s 10 -10, 15 0 s 10 10, 15 0 s 10 -10, 15 0 s 10 10, 15 0 s 10 -10, 15 0 c 32.5 0, 67.5 5, 67.5 -35"
+          />
+        </svg>
+      </div>
+
+      <div></div>
+    </div>
+  </body>
+</html>
